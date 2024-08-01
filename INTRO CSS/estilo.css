@@ -1,0 +1,54 @@
+/* a{
+    color: black;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+} */
+/* 
+selector por nombre de etiqueta */
+p{
+    color: tomato;
+}
+/* selector por id -> (#)  */
+#p2{
+    color: blue;
+}
+#p3{
+    color: chartreuse;
+}
+/* selector por clase -> (.) */
+.colortexto{
+    color: blueviolet;
+    font-weight: bold;
+}
+.colorfondo{
+    background-color: burlywood;
+}
+
+/* por especificidad nombre etiqueta y identificador */
+p#p1{
+    color: aqua;
+}
+
+#p1{
+    color: crimson;
+}
+
+/* por jerarquia directa*/
+div > div > p{
+    color: red;
+}
+/* por jerarquia indirecta (espacio)*/
+div p{
+    color: blue;
+}
+
+/* por etiquetas adyacentes, la primera despues de la otra (+)*/
+div + p +p{
+    color: red;
+}
+/* por etiquetas adyacentes, todas las etiquetas despues de la otra (~)*/
+div ~ p{
+    color: blue;
+}
