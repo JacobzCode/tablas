@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario pago</title>
+</head>
+<body>
+    <H1>5. Formulario de Pagos</H1>
+    <div align="center">
+        <form>
+            <fieldset style="width: 400px; height: 150px;">
+                <legend>MIS DATOS</legend>    
+                        <label>1.Nombre:</label>
+                        <input type="text" name="jacobo" placeholder="su nombre"> <br> <br>
+                        <label >2.Correo Electronico:</label>
+                        <input type="email" name="correo electronico" placeholder="su correo"> <br> <br>
+                        <label>3.Celular:</label>
+                        <input type="number" min="10" max="10" placeholder="ej. 310 0000000"><br><br>
+            </fieldset>        
+        </form> 
+        <form>
+            <fieldset style="width: 400px; height: 150;">
+                <legend>DIRECCION</legend>
+                    <label>1.Direccion:</label>
+                    <textarea name="DIRECCION" rows="7" cols="15" ></textarea><br><br>
+                    <label>2.Codigo postal:</label>
+                    <input type="number" placeholder="CP" min="6" max="8"><br><br>
+                    <label>3.Ciudad:</label>
+                    <input type="text" placeholder="Ciudad">
+            </fieldset>
+
+        </form><br>
+
+<form >
+    <fieldset style="width: 500px; height: 300px;">
+        <legend align="left">FORMA DE PAGO</legend>
+            <form> 
+                <fieldset class="number-legend style="width: 350px; height: 100px;">
+                    <legend>1. Tarjeta de credito</legend>
+                        <input type="radio" name="Tarjeta de credito" value="VISA"> VISA <br>
+                        <input type="radio" name="Tarjeta de credito" value="AMERICAN EXPRESS">American express<br>
+                        <input type="radio" name="Tarjeta de credito" value="MASTER CARD">Master Card<br>
+                </fieldset> <br>
+                        <label >2.Numero Tarjeta:</label>
+                        <input type="number" min="20" placeholder="su numero de tarjeta"><br> <br>
+                        <label>3.Codigo de Seguridad:</label>
+                        <input type="number" placeholder="Codigo de seguridad" min="5" max="10"><br><br>
+                        <label>4.Nombre Tarjeta:</label>
+                        <input type="text" placeholder="Digite el nombre"> <br><br>
+                        <button type="button">COMPRAR</button>
+                
+        </form>
+    </fieldset>
+</form>
+    
+    
+    
+    
+    
+    
+    </div>
+
+
+    
+    
+</body>
+</html>

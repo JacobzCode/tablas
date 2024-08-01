@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios de datos</title>
+</head>
+<body>
+    <h1 align="center">Formulario Estructurado</h1>
+    <div align="center">
+        <form>
+            <fieldset style="width: 300px; height: 100;">
+                <legend>Datos Personales</legend>
+                    <label>Nombre</label>
+                    <input type="text" name="sebastian" style="border-color: unset;"> <br> <br>
+                    <label >Apellido</label>
+                    <input type="text" name="gutierrez" style="border-color:unset;"><br> <br>
+                    <label >Ddocumento de Identidad</label>
+                    <select name="Tipo de documento" style="border-color: unset;">
+                        <option value="Escoge una opcion"></option>
+                        <option value="Cc">CC</option>
+                        <option value="TI">TI</option>
+                        
+                    </select> <br> 
+                    <label >Digite su documento</label>
+                    <input type="number" name="documento" min="10" max="10"> <br> <br>
+                    <button type="submit"> Enviar</button>
+                    
+                    <button type="reset">Borrar</button>
+            </fieldset>
+        </form> <br>
+        <form>
+            <fieldset style="width: 300px; height: 100; border:1px solids ; padding: 10px;
+            ">
+                <legend>Datos de conexion</legend>
+                    <label >Nombre Usuario</label>
+                    <input type="text" name="sebastian" > <br> <br>
+                    <label>Contraseña</label>
+                    <input type="password" name="CONTRASEÑA" ><br> <br>
+                    <label>Confirme Contraseña</label>
+                    <input type="password" >
+                    <br><br>
+                    <button type="submit"> Enviar
+                    </button> 
+                    <button type="reset">Borrar</button>
+            </fieldset>
+        </form>
+
+    
+    </div>
+    
+</body>
+</html>
